@@ -11,11 +11,9 @@ function Character({characterName, characterHomeworld}) { // ❗ Add the props
     <div>
       <div onClick={toggleHomeworld} className='character-card'>
         <h3 className='character-name' >{characterName}</h3>
-         {showHomeworld && 
-         <p>
+         {showHomeworld && <p>
          <span className='character-planet'>Planet: {characterHomeworld}</span>
-        </p>
-         }
+        </p>}
       </div>
       {/* Use the same markup with the same attributes as in the mock */}
     </div>
