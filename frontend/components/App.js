@@ -34,7 +34,7 @@ function App() {
       })
    }, [])
 
-   if (!characters.length) return 'Loading Charaters...'
+   //if (!characters.length) return 'Loading Charaters...'
   //  const toggleHomeworld = (index) => {
   //   setCharacters((prevCharacters) =>
   //     prevCharacters.map((character, i) => {
